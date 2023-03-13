@@ -5,16 +5,14 @@ import java.util.Objects;
 public class Gato {
     private String nome;
     private String cor;
-    private Integer Idade;
+    private String Idade;
 
-    public Gato() {
-    }
-
-    public Gato(String nome, String cor, Integer idade) {
+    public Gato(String nome, String cor, String idade) {
         this.nome = nome;
         this.cor = cor;
         this.Idade = idade;
     }
+
 
     public String getNome() {
         return nome;
@@ -32,11 +30,11 @@ public class Gato {
         this.cor = cor;
     }
 
-    public Integer getIdade() {
+    public String getIdade() {
         return Idade;
     }
 
-    public void setIdade(Integer idade) {
+    public void setIdade(String idade) {
         this.Idade = idade;
     }
 
